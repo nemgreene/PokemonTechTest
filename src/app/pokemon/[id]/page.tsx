@@ -19,7 +19,6 @@ export default function Page({ params: { id } }: { params: { id: string } }) {
     if (res) {
       setData(res);
     }
-    console.log(res);
   };
   useEffect(() => {
     fetchData();
